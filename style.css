@@ -1,0 +1,1119 @@
+
+                        @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+                        
+                        body{
+                            text-align: center;
+
+                        
+
+                        }
+                        html {
+                            background-color: white;
+                            
+                        }
+
+
+                        .pol1 {
+                            width: 1510px;
+                            height: 70px; 
+                            background-color: black;
+                            display: inline-block;
+                            position: relative;
+                        }
+                        .pol1 li{ 
+                            font-family: 'Poiret One', cursive;
+                            background-size: cover;
+                            position: absolute;
+                            background-color: black;
+                            left: 28%; 
+                            font-size: 150%;
+                        }
+                        .pol1 li a{
+                            color: white;
+                            margin-left: 1.5em;
+                            background-color: black;
+                            text-decoration: none;
+                            transition-duration: 2s
+                        }
+                        .pol1 li a:hover{
+                            color: rgb(255, 176, 29);
+                            transition-duration: 2s
+                            
+                        }
+                        .pol2 {
+                            width: 1510px;
+                            height: 70px; 
+                            background-color: black;
+                            display: inline-block;
+                            position: relative;
+                        }
+                        .pol2 a{
+                            position: absolute;
+                            font-size: 200%;
+                            top: 10%;
+                            left: 32%;
+                            font-family: 'Poiret One', cursive;
+                            color: white;
+                            background-color: black;
+                        }
+                        .pol3 {
+                            width: 1510px;
+                            height: 70px; 
+                            background-color: black;
+                            display: inline-block;
+                            position: relative;
+                        }
+                        .pol3 a{
+                            position: absolute;
+                            font-size: 200%;
+                            top: 10%;
+                            left: 35%;
+                            font-family: 'Poiret One', cursive;
+                            color: white;
+                            background-color: black;
+                        }
+                        .n2 {
+                            margin: center;
+                            margin: 0;
+                            width: 1510px;
+                            height: 600px;
+                            position: relative; 
+                            display: inline-block; 
+                            
+                        }
+                        .fot1{
+                            margin: center;
+                            margin: 0; /* Убираем отступы */
+                            height: 100%; /* Высота страницы */
+                            background: url(https://images.unsplash.com/photo-1618907325987-8956fe9b4817?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1059&q=80), rgba(255, 255, 255, 0.137);
+                            background-size: cover; /* Фон занимает всю доступную площадь */
+                            background-position: 80% 30%;
+                            background-blend-mode: color;
+                        }
+                        .fot2{
+                            object-fit: cover;
+                            width: 1510px;
+                            height: 600px;
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            margin: center;
+                            margin: 0; /* Убираем отступы */
+                            height: 100%; /* Высота страницы */
+                            background: url(https://images.unsplash.com/photo-1615798763618-183906cd14b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80), rgba(255, 255, 255, 0.137); /* Параметры фона */
+                            background-size: cover; /* Фон занимает всю доступную площадь */
+                            background-position: 80% 30%;
+                            background-blend-mode: color;
+                            transition: opacity 3s;
+                        }
+                        .fot2:hover{
+                            animation: proz1 30s infinite;
+                            
+                            
+                        }
+                        .t1{
+                            width: 1510px;
+                            height: 600px;
+                            position: absolute;
+                            top: 0%;
+                            left: 0%;
+                            background-color: rgba(255, 255, 255, 0.185); 
+                        }
+                        .n2 h1 {
+                            margin: center;
+                            text-align: center;
+                            top: -5%;
+                            left: 30%;
+                            font-size: 9 em;
+                            font-family: 'Poiret One', cursive;
+                            color: black;
+                            position: absolute;
+                            font-size: 500%;
+                        }
+                        .n2 h1:hover {
+                            font-size: 600%;
+                            left: 25%;
+                            transition-duration: 2s
+                        }
+                        .n2 h3:hover {
+                            font-size: 300%;
+                            left: 24%;
+                            top: 80%;
+                            transition-duration: 2s
+                        }
+                        .n2 h3 {
+                            margin: center;
+                            text-align: center;
+                            top: 82%;
+                            left: 28%;
+                            font-size: 9 em;
+                            font-family: 'Poiret One', cursive;
+                            color: black;
+                            position: absolute;
+                            font-size: 250%;
+                        }
+                        .otstup {
+                            width: 1510px;
+                            height: 30px; 
+                        }
+                        .my_favorite {
+                            margin-left: 1.5em;
+                            width: 300px;
+                            height: 180px;
+                            background-color: black;
+                            display: inline-block;
+                            background-image: url(https://dummyimage.com/300x180/555/fff.png);
+                        }
+                        .film2{
+                            background-image: url(https://cdn.pixabay.com/photo/2018/03/03/11/17/gecko-3195466_1280.jpg);
+                            background-size: cover;
+                            transition-duration: 2s
+                        }
+                        .film2:hover{
+                            width: 400px;
+                            height: 280px;
+                            transition-duration: 2s
+                        }
+                        .film1{
+                            background-image: url(https://cdn.pixabay.com/photo/2021/05/03/22/06/leopard-gecko-6227354_1280.jpg);
+                            background-size: cover;
+                            transition-duration: 2s
+                        }
+                        .film1:hover{
+                            width: 400px;
+                            height: 280px;
+                            transition-duration: 2s
+                        }
+                        .film3{
+                            background-image: url(http://s017.radikal.ru/i418/1402/10/bf5c9edc74f6.jpg);
+                            background-size: cover;
+                            transition-duration: 2s
+                        }
+                        .film3:hover{
+                            width: 400px;
+                            height: 280px;
+                            transition-duration: 2s
+                        }
+                        .film4{
+                            background-image: url(https://babu-gecko.webnode.cz/_files/200000962-d964fda5df/21-56b.jpg);
+                            background-size: cover;
+                            transition-duration: 2s
+                        }
+                        .film4:hover{
+                            width: 400px;
+                            height: 280px;
+                            transition-duration: 2s
+                        }
+
+                        @keyframes proz1 {
+                            10%{
+                                opacity: 0;
+                            }
+                            20% {
+                                
+                                background: url(https://cdn.pixabay.com/photo/2017/03/08/02/31/leopard-2125784_1280.jpg), rgba(255, 255, 255, 0.137);
+                                background-size: cover; /* Фон занимает всю доступную площадь */
+                                background-position: 80% 30%;
+                                background-blend-mode: color;  
+                            }
+                            30%{
+                                opacity: 1;
+
+                            }
+                            40%{
+                                background: url(https://cdn.pixabay.com/photo/2017/03/08/02/31/leopard-2125784_1280.jpg), rgba(255, 255, 255, 0.137);
+                                background-size: cover; /* Фон занимает всю доступную площадь */
+                                background-position: 80% 30%;
+                                background-blend-mode: color;
+                            }
+                            50%{
+                                opacity: 0;
+                            }
+                            60%{
+                                background: url(https://cdn.pixabay.com/photo/2020/05/06/07/22/gekco-leopard-5136451_1280.jpg), rgba(255, 255, 255, 0.137);
+                                background-size: cover; /* Фон занимает всю доступную площадь */
+                                background-position: 80% 30%;
+                                background-blend-mode: color;
+                            }
+                            70%{
+                                opacity: 1;
+                            }
+                            80%{
+                                background: url(https://cdn.pixabay.com/photo/2020/05/06/07/22/gekco-leopard-5136451_1280.jpg), rgba(255, 255, 255, 0.137);
+                                background-size: cover; /* Фон занимает всю доступную площадь */
+                                background-position: 80% 30%;
+                                background-blend-mode: color;
+                            }
+                            90%{
+                                opacity: 0;
+                            }
+                            
+                        }
+                        .l1{
+                            height: 30px;
+                        }
+                        .ramka1{
+                            margin-left: auto;
+                            margin-right: auto;
+                            width: 600px;
+                            text-align:center;
+                        }
+                        .t2{
+                            margin-left: auto;
+                            margin-right: auto;
+                            font-family: 'Poiret One', cursive;
+                            font-size: 300%; 
+                            color: black;
+                            text-align:center;
+                            
+                        }
+                        .t3{
+                            text-align: center;
+                            font-family: 'Poiret One', cursive;
+                            font-size: 120%; 
+                            color: black;
+                            font-weight: 600;
+                        }
+                        .font1{
+                            width: 1300px;
+                            background-color:black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .t4{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 200%; 
+                            color: white;
+                            text-align:left;
+                            margin: 3%;
+                            font-weight: 500;
+                        }
+                        .t5{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 120%; 
+                            color: white;
+                            text-align:left;
+                            margin: 3%;
+                            font-weight: 500;
+                        }
+                        .f{
+                            margin-left: 5em;
+                            width: 300px;
+                            height: 300px;
+                            background-color: black;
+                            display: inline-block;  
+                        }
+                        .fot3{
+                            border: 3px solid #fff;
+                            width: 300px;
+                            background-size: cover; 
+                            height: 300px;
+                            
+                            border-radius: 200px;
+                            background: url(https://mywishboard.com/thumbs/wish/f/a/m/1020x0_hwtiesrumzourzmk_jpg_53dd.jpg);
+                            background-size: cover;
+                        }
+                        .fot4{
+                            border: 3px solid #fff;
+                            width: 300px;
+                            background-size: cover; 
+                            height: 300px;
+                            
+                            border-radius: 200px;
+                            background: url(https://cdn.sm-news.ru/wp-content/uploads/2020/03/18/3-9.jpg);
+                            background-size: cover;
+                        }
+                        .fot5{
+                            border: 3px solid #fff;
+                            width: 300px;
+                            background-size: cover; 
+                            height: 300px;
+                            
+                            border-radius: 200px;
+                            background: url(https://cdn.pixabay.com/photo/2020/01/18/18/35/leopard-gecko-4776074_960_720.jpg);
+                            background-size: cover;
+                        }
+                        .fot6{
+                            width: 700px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://cdn.pixabay.com/photo/2018/09/03/17/50/gecko-3651875_1280.jpg);
+                            background-size: cover;
+                        }
+                        .font2{
+                            width: 1300px;
+                            background-color: black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .fot7{
+                            width: 500px;
+                            background-size: cover; 
+                            height: 300px; 
+                            background: url(https://cdn.pixabay.com/photo/2021/01/30/19/19/reptile-5965080_1280.jpg);
+                            background-size: cover;
+                        }
+                        .fot8{
+                            width: 500px;
+                            background-size: cover; 
+                            height: 300px; 
+                            background: url(http://eublepharis.ru/forum/userpix/1969_IMG_7859_1.jpg);
+                            background-size: cover;
+                        }
+                        .font3{
+                            width: 1300px;
+                            background-color: black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .fot9{
+                            border: 3px solid #fff;
+                            width: 400px;
+                            background-size: cover; 
+                            height: 600px; 
+                            background: url(https://images.unsplash.com/photo-1562314033-07126e9e012a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+                            background-size: cover;
+                        }
+                        .fot10{
+                            border: 3px solid #fff;
+                            width: 400px;
+                            background-size: cover; 
+                            height: 600px; 
+                            background: url(https://i.pinimg.com/originals/f2/82/90/f28290a3d7188ce5fffb6742c02ec1f1.jpg);
+                            background-size: cover;
+                            background-position: 50% 30%;
+                        }
+                        .font4{
+                            width: 1300px;
+                            background-color: black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .fot11{
+                            width: 500px;
+                            background-size: cover; 
+                            height: 500px; 
+                            background: url(https://images.unsplash.com/photo-1620229557622-4a6d2b49a88d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=801&q=80);
+                            background-size: cover;
+                            border-radius: 300px;
+                        }
+                        .font5{
+                            width: 1300px;
+                            background-color: black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .fot12{   
+                            width: 350px;
+                            background-size: cover; 
+                            height: 250px; 
+                            background: url(http://eublepharis.ru/forum/userpix/2074___1.jpg);
+                            background-size: cover;
+                        }
+                        .fot13{   
+                            width: 350px;
+                            background-size: cover; 
+                            height: 250px; 
+                            background: url(https://cdn.pixabay.com/photo/2018/05/07/20/02/leopard-gecko-3381555_1280.jpg);
+                            background-size: cover;
+                        }
+                        .fot14{   
+                            width: 350px;
+                            background-size: cover; 
+                            height: 250px; 
+                            background: url(https://im0-tub-ru.yandex.net/i?id=be6f6541489e15b2137cc7375b5d7517-l&n=13);
+                            background-size: cover;
+                        }
+                        .f1{
+                            margin-left: 3em;
+                            width: 350px;
+                            height: 250px;
+                            background-color: black;
+                            display: inline-block;  
+                        }
+                        .font6{
+                            width: 1300px;
+                            background-color: black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .fot15{   
+                            width: 400px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://cdn.pixabay.com/photo/2018/09/03/17/50/gecko-3651873_960_720.jpg);
+                            background-size: cover;
+                        }
+                        .fot16{   
+                            width: 400px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://im0-tub-ru.yandex.net/i?id=45aa09f9b8f6f8bc3302c63225d971b6-l&ref=rim&n=13&w=1080&h=1080);
+                            background-size: cover;
+                        }
+                        .font7{
+                            width: 1300px;
+                            background-color: black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .fot17{   
+                            width: 350px;
+                            background-size: cover; 
+                            height: 260px; 
+                            background: url(https://images.unsplash.com/photo-1512427798753-26b00d68772f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=953&q=80);
+                            background-size: cover;
+                        }
+                        .fot18{   
+                            width: 350px;
+                            background-size: cover; 
+                            height: 260px; 
+                            background: url(https://images.unsplash.com/photo-1616398576477-346472230c1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80);
+                            background-size: cover;
+                        }
+                        .fot19{   
+                            width: 350px;
+                            background-size: cover; 
+                            height: 260px; 
+                            background: url(https://images.unsplash.com/photo-1616398575483-e9dd3afc9b34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80);
+                            background-size: cover;
+                        }
+                        .font8{
+                            width: 1300px;
+                            background-color: black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .fot20{   
+                            width: 400px;
+                            background-size: cover; 
+                            height: 300px; 
+                            background: url(https://cherepah.ru/wp-content/uploads/3/5/7/357f94e543c4114bed185d5ab4ca6674.jpeg);
+                            background-size: cover;
+                        }
+                        .fot21{   
+                            width: 400px;
+                            background-size: cover; 
+                            height: 300px; 
+                            background: url(https://eublefar.ru/wp-content/uploads/2017/04/linka2.jpg);
+                            background-size: cover;
+                        }
+                        .font9{
+                            width: 1300px;
+                            background-color: black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .fot22{   
+                            width: 300px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://images.unsplash.com/photo-1588271174559-1f5dc8750e5f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+                            background-size: cover;
+                        }
+                        .font10{
+                            width: 1300px;
+                            background-color: black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .pol4 {
+                            width: 1510px;
+                            height: 70px; 
+                            background-color: black;
+                            display: inline-block;
+                            position: relative;
+                        }
+                        .pol4 a{
+                            position: absolute;
+                            font-size: 200%;
+                            top: 10%;
+                            left: 35%;
+                            font-family: 'Poiret One', cursive;
+                            color: white;
+                            background-color: black;
+                        }
+                        .font11{
+                            margin-left: auto;
+                            background-size: cover; 
+                            background-position: 50% 30%;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .text1{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 300%; 
+                            color: black;
+                            text-align: center;
+                            margin: 3%;
+                            font-weight: 500;
+                            transition-duration: 2s;
+                        }
+                        .text1:hover{
+                            font-size: 350%;
+                            transition-duration: 2s;
+                        }
+                        .text2{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 120%; 
+                            color: black;
+                            text-align:left;
+                            margin: 3%;
+                            font-weight: 600;
+                        }
+                        .fot23{   
+                            width: 500px;
+                            background-size: cover; 
+                            height: 300px; 
+                            background: url(https://images.unsplash.com/photo-1619153813464-adf067418517?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80);
+                            background-size: cover;
+                        }
+                        .fot24{   
+                            width: 500px;
+                            background-size: cover; 
+                            height: 300px; 
+                            background: url(https://images.unsplash.com/photo-1619153832248-6458a856d91f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80);
+                            background-size: cover;
+                        }
+                        .fot25{   
+                            width: 300px;
+                            background-size: cover; 
+                            height: 300px; 
+                            background: url(https://shop.pitomeczoo.ru/wp-content/uploads/2021/02/588ec86c8f9e12ed8f288d3ae8b1c2b871f7ea80.jpg);
+                            background-size: cover;
+                        }
+                        .fot26{   
+                            width: 320px;
+                            background-size: cover; 
+                            height: 300px; 
+                            background: url(https://aqatema.ru/wa-data/public/shop/products/08/47/14708/images/41831/41831.750.jpg);
+                            background-size: cover;
+                        }
+                        .fot29{   
+                            width: 400px;
+                            background-size: cover; 
+                            height: 280px; 
+                            background: url(http://s008.radikal.ru/i305/1509/21/ad2b107816b9.jpg);
+                            background-size: cover;
+                        }
+                        .fot30{   
+                            width: 400px;
+                            background-size: cover; 
+                            height: 300px; 
+                            background: url(http://s017.radikal.ru/i418/1509/eb/d829191a67f9.jpg);
+                            background-size: cover;
+                        }
+                        .pol5 a{
+                            position: absolute;
+                            font-size: 200%;
+                            top: 10%;
+                            left: 45%;
+                            font-family: 'Poiret One', cursive;
+                            color: white;
+                            background-color: black;
+                        }
+                        .pol5 {
+                            width: 1510px;
+                            height: 70px; 
+                            background-color: black;
+                            display: inline-block;
+                            position: relative;
+                        }
+                        .text3{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 100%; 
+                            color: black;
+                            text-align: left;
+                            margin: 3%;
+                            font-weight: 600;
+                            transition-duration: 2s;
+                        }
+                        .fot31{   
+                            width: 300px;
+                            background-size: cover; 
+                            height: 200px; 
+                            background: url(https://siniyej.ru/image/catalog/food/alive/TR-13_Acheta_domesticus_by_www-siniyej-ru.jpg);
+                            background-size: cover;
+                        }
+                        .fot32{   
+                            width: 300px;
+                            background-size: cover; 
+                            height: 200px; 
+                            background: url(https://bananoed.ru/files/gallery/1050/big/dsc_3876_1607012619.jpg);
+                            background-size: cover;
+                        }
+                        .fot33{   
+                            width: 200px;
+                            background-size: cover; 
+                            height: 200px; 
+                            background: url(https://www.precisepestcontrolnj.com/wp-content/uploads/2013/08/roaches.jpg);
+                            background-size: cover;
+                        }
+                        .morf{
+                            
+                            display: inline-block;  
+                        }
+                        .fot34{ 
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://irecommend.ru/sites/default/files/product-images/10297/LwMmRfcM9MG4CdLuluXvA.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .mor1{
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background-color: rgba(0, 0, 0, 0.726);
+                            background-size: cover;
+                            opacity: 0;
+                            transition-duration: 2s;
+                            position: relative 
+                        }
+                        .mor1:hover{
+                            opacity: 1;
+                            transition-duration: 2s;
+                        }
+                        .mor1 a{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 300%; 
+                            color: white;
+                            text-align: center;
+                            position: absolute;
+                            top: 40%;
+                            left: 38%;
+                            margin-right: -40%;
+                            font-weight: 500;
+                            transition-duration: 2s;
+                        }
+                        .fot35{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(http://www.reptilus-project.fr/medias/images/reptilus-project-goblin.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot36{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://i.pinimg.com/originals/49/65/df/4965df5d32ac6cabdc3dcf1e13b80bb2.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot37{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://planetexotic.ru/wa-data/public/shop/products/20/40/4020/images/8947/8947.970.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot38{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://www.kimbo-gecko.cz/wp-content/uploads/2016/02/mack_snow.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .mor2{
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background-color: rgba(0, 0, 0, 0.726);
+                            background-size: cover;
+                            opacity: 0;
+                            transition-duration: 2s;
+                            position: relative 
+                        }
+                        .mor2:hover{
+                            opacity: 1;
+                            transition-duration: 2s;
+                        }
+                        .mor2 a{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 300%; 
+                            color: white;
+                            text-align: center;
+                            position: absolute;
+                            top: 40%;
+                            left: 36%;
+                            margin-right: -40%;
+                            font-weight: 500;
+                            transition-duration: 2s;
+                        }
+                        .mor3{
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background-color: rgba(0, 0, 0, 0.726);
+                            background-size: cover;
+                            opacity: 0;
+                            transition-duration: 2s;
+                            position: relative 
+                        }
+                        .mor3:hover{
+                            opacity: 1;
+                            transition-duration: 2s;
+                        }
+                        .mor3 a{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 300%; 
+                            color: white;
+                            text-align: center;
+                            position: absolute;
+                            top: 40%;
+                            left: 32%;
+                            margin-right: -40%;
+                            font-weight: 500;
+                            transition-duration: 2s;
+                        }
+                        .mor4{
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background-color: rgba(0, 0, 0, 0.726);
+                            background-size: cover;
+                            opacity: 0;
+                            transition-duration: 2s;
+                            position: relative 
+                        }
+                        .mor4:hover{
+                            opacity: 1;
+                            transition-duration: 2s;
+                        }
+                        .mor4 a{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 300%; 
+                            color: white;
+                            text-align: center;
+                            position: absolute;
+                            top: 40%;
+                            left: 20%;
+                            margin-right: -40%;
+                            font-weight: 500;
+                            transition-duration: 2s;
+                        }
+                        .fot39{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://planetexotic.ru/wa-data/public/shop/products/50/33/3350/images/7659/7659.970.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot40{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://planetexotic.ru/wa-data/public/shop/products/22/24/2422/images/7692/7692.970.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot41{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://planetexotic.ru/wa-data/public/shop/products/14/24/2414/images/8952/8952.970.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot42{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://i.pinimg.com/originals/76/4f/76/764f7609a3bea54cbdc233a831058204.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot43{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://planetexotic.ru/wa-data/public/shop/products/82/37/3782/images/8515/8515.970.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot44{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://35.img.avito.st/1280x960/8545172735.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot45{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://derenu.ru/wp-content/uploads/2018/12/45348765_695355190846383_7246663315110232064_o-1024x682.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot46{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://planetexotic.ru/wa-data/public/shop/products/84/37/3784/images/8516/8516.750.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot47{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://i.pinimg.com/originals/ee/fc/4b/eefc4b2336a4de6710717c346f4a4c0c.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot48{  
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background: url(https://img2.goodfon.ru/wallpaper/original/9/30/foto-makro-yascherica.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .mor5{
+                            width: 490px;
+                            background-size: cover; 
+                            height: 400px; 
+                            background-color: rgba(0, 0, 0, 0.726);
+                            background-size: cover;
+                            opacity: 0;
+                            transition-duration: 2s;
+                            position: relative 
+                        }
+                        .mor5:hover{
+                            opacity: 1;
+                            transition-duration: 2s;
+                        }
+                        .mor5 a{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 300%; 
+                            color: white;
+                            text-align: center;
+                            position: absolute;
+                            top: 40%;
+                            left: 5%;
+                            margin-right: -40%;
+                            font-weight: 500;
+                            transition-duration: 2s;
+                        }
+                        .font12{
+                            width: 1300px;
+                            background-color: black;
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: inline-block;
+                        }
+                        .t6{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 200%; 
+                            color: white;
+                            text-align:center;
+                            margin: 3%;
+                            font-weight: 500;
+                        }
+                        .t7{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 120%; 
+                            color: white;
+                            text-align:center;
+                            margin: 3%;
+                            font-weight: 500;
+                        }
+                        .otstup1 {
+                            background-color: black;
+                            width: 1510px;
+                            height: 5px; 
+                        }
+                        .pol6 a{
+                            position: absolute;
+                            font-size: 200%;
+                            top: 10%;
+                            left: 45%;
+                            font-family: 'Poiret One', cursive;
+                            color: white;
+                            background-color: black;
+                        }
+                        .pol6 {
+                            width: 1510px;
+                            height: 70px; 
+                            background-color: black;
+                            display: inline-block;
+                            position: relative;
+                        }
+                        .font13{
+                            width: 1510px;
+                            background-color: rgb(255, 255, 255);
+                            margin:0%;
+                        }
+                        .fot49{  
+                            width: 100px;
+                            background-size: cover; 
+                            height: 100px; 
+                            background: url(https://autopolycolor.ru/images/cart-icon.png);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .t8{
+                            width: 600px;
+                            font-family: 'Poiret One', cursive;
+                            font-size: 150%; 
+                            color: black;
+                            text-align:center;
+                            margin: 3%;
+                            font-weight: 600;
+                            display: inline-block;
+                        }
+                        .font14{
+                            width: 1300px;
+                            background-color: rgb(0, 0, 0);
+                            margin: left;
+                            display: inline-block;
+                        }
+                        .fot51{  
+                            width: 400px;
+                            background-size: cover; 
+                            height: 270px; 
+                            background: url(http://reptiles-samara.ru/gallery_gen/71b89a49573eb6343e8b130f9ea1d4ef_1200x800.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .fot50{  
+                            width: 420px;
+                            background-size: cover; 
+                            height: 270px; 
+                            background: url(http://s004.radikal.ru/i207/1402/da/e34847cdfa80.jpg);
+                            background-size: cover;
+                            display: inline-block;
+                        }
+                        .t9{
+                            width: 600px;
+                            font-family: 'Poiret One', cursive;
+                            font-size: 200%; 
+                            color: black;
+                            text-align:center;
+                            margin: 3%;
+                            font-weight: 600;
+                            display: inline-block;
+                        }
+                        .t10{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 120%; 
+                            color: black;
+                            text-align:center;
+                            margin: 3%;
+                            font-weight: 600;
+                            display: inline-block;
+                        }
+                        .font15{
+                            width: 1300px;
+                            margin: left;
+                            display: inline-block;
+                        }
+                        footer{
+                            width: 1556px;
+                            height: 400px;
+                            background-color: black;
+                            margin-bottom: -10%;
+                            margin-left: -3%;
+                            display: inline-block;
+                        }
+                        .t11{
+                            font-family: 'Poiret One', cursive;
+                            font-size: 100%; 
+                            color: rgb(255, 255, 255);
+                            text-align:center;
+                            margin: 3%;
+                            font-weight: 500;
+                            display: inline-block;
+                        }
+                        .soc{
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            background-color: rgb(255, 255, 255);
+                            border-radius: 25px;
+                        }
+                        .foto1{
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            background-size: cover;
+                            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABmJLR0QA/wD/AP+gvaeTAAAFIUlEQVR4nO2dSYgcVRjHf+MkE+NEx0QUEVyQRMFJTkEPiYIRBzxpIiJEPLjiSVHE5TDgAnoR4kIcFdw9KYIL5KBJBBMxLujFGEEw6pgIonHJjEEzMykPbxo7bXVXff1ed7Vf/3/wHWao+ter9+uuqnlVrwaEEEIIIYQQQgghhBBCCCGEEEKIcqwCHgd2A9NApmpZ0/N99Riwso3+7hqLgAlgjuo77f9ac8CTwJCx7zvOIuA9qu8gL7WdHpP8FNV3irfabDLQQVahw3InahYYNXjI5ZjYAOCmRDniaAaBG2NDUoi5NEGGyGcsNmAgQSOmgCUJcsR/mQJOiAlIIThLkCGaE+VI507nSLBzJNg5EuwcCXaOBDtHgp0jwc6RYOdIsHMk2DkS7BwJdo4EO0eCnSPBzpFg50iwcyTYOQuqbkBiDgDPA9uAb4Bf539/GPgTWAwcB5xMeJ77auCq7jeze/TCQ3cfAVuAGYKEwznLDABrgY00/1B+D6wBfjRu/wXgupLL7gQ+rPv5D+BIk2WPBzYA5xnb00gKR1HEPsFveSz01hY5e4Fx4DRj+y8r2c5PsB/xTi2Z3aoqJ3YHLjRsayGwryDvF2CFIXN1yXZeY8issaJkdscE98JF1h2GZWeApwuWOQm405BZ5hD4E/C6IbPGtW2s03OkmGS13LC9ZcDvBZlfGfIuKNHGcUNejWFgf4ls94fojHDla+H+grxDhqy1BVkHCR8qKw8V5PaV4Bls3+IRwp9ArTLLTqC+pCDnQUO7aiwH/irI7SvBGfCicbvjBXknlsxpdRX9M/bJX4PABwVt60vBM9iufpcAky3yygq+vEXGLYb21Cj64PWt4Ax42bjt9S2yRkpmbGiy/vvYBxnOJwzUSHCTmgXONW7/rZycOcqfg/MEHwLOMbZjKWF4NGV/uBOcAW8at38GYciwPmO/Yf0rc9pwj7ENA4R2p+4Ll4Iz4GJjG9YTxoRr6+8yrLumYdtvYB8AuovO9INbwZ9h7+QH6tZ/2LDeYv4dOPmYcLfJwkWEC0QJNtbNbbTleuA5yl9B1xgD7sP+rpGlFI+NS3CTOkC4b9vLPEtn5boWnAEvdXE/rCwD/kaCo+oIsK57u2LiFLrzhr/K6fQOfkv5QYtuM4EEJ6lXurY3NhYCbyPBSWpjt3bIyBDwKhIcXb9hH8bsFoOEo4wER9ZeevdPp0HCLU8JjqwdhDfMp2aMcHtwOCJjkHBHTIIj6zXSvvK+/p7w19ieLmlkAfAO6fa1cqoQnAFbiXzVbh27GrIngTMj8kaAPaTZz8qpSnAGfA6cHdn+YfIHLPbQ3sN2NVaT5iZE5VQpOCP836HbaP8Z75UtsncCx7aZC/BIQdsl2FCfAldgf8xmXUHuFtq/qDsrwX5VTtViG+tL4F7KXyjdXiJzB2GekZXKp670wuzCTrKP8M3+jjD9pJHTgRsIN/2LmAIeJYxa/UA4bzd+s0cIp4ohwoMAdxN3RQ6RjrwL9oD+Z4NojgQ7R4KdI8HOkWDnSLBzJNg5EuwcCXaOBDtHgp0jwc6RYOdIsHMk2DkS7BwJdo4EO0eCnZNC8HSCDJHPwdiAFIInE2SIfKL7NoXgrQkyRD7vVt0ACFM/Zqn+gXdvNQuMGjzkkuIbvBt4JkGOOJoJwiyNnmAI2E71n3ovtY2085+TMARsRofrmJoFnqAH5dYzCmwCviDM56m603q9pub7ahMJzrlCCCGEEEIIIYQQQgghhBBCCCH6g38AmUO1SkDQ+C4AAAAASUVORK5CYII=);
+                            background-size: cover;
+                            border-radius: 25px;
+                        }
+                        .foto2{
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            background-size: cover;
+                            background: url(data:image/png;base64,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);
+                            background-size: cover;
+                            border-radius: 25px;
+                        }
+                        .foto3{
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            background-size: cover;
+                            background: url(data:image/png;base64,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);
+                            background-size: cover;
+                            border-radius: 25px;
+                        }
+                        .foto4{
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            background-size: cover;
+                            background: url(data:image/png;base64,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);
+                            background-size: cover;
+                            border-radius: 25px;
+                        }
+                        .pol12 {
+                            overflow: hidden;
+                            top: 0; /* Position the navbar at the top of the page */
+                            width: 1510px; /* Full width */
+                            height: 70px; 
+                            left: 0.5%;
+                            background-color: black;
+                            display: inline-block;
+                            position: fixed;
+                        }
+                        .pol12 li{ 
+                            font-family: 'Poiret One', cursive;
+                            background-size: cover;
+                            position: absolute;
+                            background-color: black;
+                            left: 28%; 
+                            font-size: 150%;
+                        }
+                        .pol12 li a{
+                            color: white;
+                            margin-left: 1.5em;
+                            background-color: black;
+                            text-decoration: none;
+                            transition-duration: 2s
+                        }
+                        .pol12 li a:hover{
+                            color: rgb(255, 176, 29);
+                            transition-duration: 2s
+                            
+                        }
+                    
